@@ -8,7 +8,7 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
+    <title>SylvaNippon - Ternurines y más ❤️</title>
   </head>
   <body>
     <header></header>
@@ -17,10 +17,9 @@
         class="grid-auto-flow justify-items-center relative grid xl:grid-cols-12 md:grid-cols-9 sm:grid-cols-6 grid-cols-3 w-full min-h-fit"
       >
         <div
-          class="absolute bg-hero-image h-full w-full bg-contain bg-repeat brightness-50 animate-[bgfadein_2s_ease-in-out_1] min-h-fit rounded-t-xl"
+          class="absolute bg-hero-image h-full w-full bg-contain bg-repeat brightness-50 animate-[bgfadein_2s_ease-in-out_1] min-h-fit xl:rounded-t-xl"
         >
         </div>
-
         <div
           class="xl:col-span-7 md:col-span-7 sm:col-span-6 col-span-3 text-center md:text-left flex flex-col mx-auto gap-2 py-24 z-10 animate-[herotext_1s_ease-in-out_1]"
         >
@@ -84,18 +83,21 @@
       <section class="p-2">
         <h2 class="font-mono text-center text-2xl">Razones para escogernos</h2>
         <!-- CONTENEDOR DE CARACTERÍSTICAS -->
-        <div class="flex-wrap">
-          <div class="w-full border-8 text-center">
-            <h3 class="font-bold">Importados desde Japón</h3>
-            <span>Aseguramos una calidad 100% original en los productos.</span>
+        <div class="flex flex-col md:flex-row md:items-start md:justify-center gap-8 flex-wrap">
+          <div class="w-full md:w-fit flex-1 md:p-4 min-h-[280px] border-2 rounded-md text-center flex flex-col items-center justify-center">
+            <img src="/icons/airplane.png"/>
+            <h3 class="font-bold">Productos desde Japón</h3>
+            <span class="">Aseguramos una calidad 100% original en los productos al ser importados directamente de su país de orígen.</span>
           </div>
-          <div class="w-full border-8">
-            <h3></h3>
-            <span></span>
+          <div class="w-full md:w-fit flex-1 md:p-4 min-h-[280px] border-2 rounded-md text-center flex flex-col items-center justify-center">
+            <img src="/icons/delivery.png"/>
+            <h3 class="font-bold">Entregas en Mérida, Yucatán</h3>
+            <span>Envio gratis a cualquier sección de Fraccionamiento Las Américas, y entregas en diferentes ubicaciones.</span>
           </div>
-          <div class="w-full border-8">
-            <h3></h3>
-            <span></span>
+          <div class="w-full md:w-fit flex-1 md:p-4 min-h-[280px]  border-2 rounded-md text-center flex flex-col items-center justify-center">
+            <img src="/icons/price.png"/>
+            <h3 class="font-bold">Precios accesibles.</h3>
+            <span>Nos esforzamos en mantener precios altamente competitivos y asequibles.</span>
           </div>
         </div>
       </section>
