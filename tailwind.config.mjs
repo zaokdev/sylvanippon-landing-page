@@ -13,7 +13,8 @@ export default {
 			},
 			keyframes: {
 				heroimage: {
-					'0%': {transform: "translateX(200%)"},
+					'0%': {transform: "translateX(200%)", opacity: "0"},
+					'50%': {opacity: "0.20"},
 					'100%': {transform: "translateX(0)"}
 				},
 				herotext: {

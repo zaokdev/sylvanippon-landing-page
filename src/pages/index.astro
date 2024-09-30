@@ -10,11 +10,11 @@
     <meta name="generator" content={Astro.generator} />
     <title>SylvaNippon - Ternurines y más ❤️</title>
   </head>
-  <body>
+  <body class="bg-pink-100">
     <header></header>
     <main class="xl:container xl:mx-auto">
       <section
-        class="grid-auto-flow justify-items-center relative grid xl:grid-cols-12 md:grid-cols-9 sm:grid-cols-6 grid-cols-3 w-full min-h-fit"
+        class="p-2 grid-auto-flow justify-items-center relative grid xl:grid-cols-12 md:grid-cols-9 sm:grid-cols-6 grid-cols-3 w-full min-h-fit"
       >
         <div
           class="absolute bg-hero-image h-full w-full bg-contain bg-repeat brightness-50 animate-[bgfadein_2s_ease-in-out_1] min-h-fit xl:rounded-t-xl"
@@ -80,8 +80,8 @@
         />
       </section>
       <!-- CARACTERÍSTICAS RELEVANTES DE LA TIENDA -->
-      <section class="p-2">
-        <h2 class="font-mono text-center text-2xl">Razones para escogernos</h2>
+      <section class="p-4 mt-2">
+        <h2 class="font-mono text-center text-2xl my-7 md:text-3xl font-bold italic">Razones para escogernos</h2>
         <!-- CONTENEDOR DE CARACTERÍSTICAS -->
         <div class="flex flex-col md:flex-row md:items-start md:justify-center gap-8 flex-wrap">
           <div class="w-full md:w-fit flex-1 md:p-4 min-h-[280px] border-2 rounded-md text-center flex flex-col items-center justify-center">
@@ -101,6 +101,15 @@
           </div>
         </div>
       </section>
+      <!-- QUE SON LOS TERNURINES -->
+       <section class="md:grid md:grid-cols-12 mt-6 p-8 bg-pink-200 rounded-md h-[600px] flex flex-col items-center justify-center gap-8 min-h-fit">
+        <div class="md:col-span-6 text-pretty flex flex-col">
+          <h3 class="md:text-3xl font-mono ">¿Qué son los ternurines?</h3>
+          <p class="text-xl">Los Sylvanian Families, o Calico Critters, son adorables figuras de animales antropomórficos que han cautivado a niños y adultos desde 1985. Cada personaje, elaborado con un suave material afelpado, vive en un encantador pueblo donde participa en actividades cotidianas que fomentan la creatividad y la imaginación. Con una rica diversidad de personajes y historias, estos muñecos no solo son juguetes, sino también herramientas educativas que ayudan a los niños a desarrollar habilidades sociales y emocionales. ¡Descubre este mágico mundo y únete a la ternurimanía!</p>
+        </div>
+        <img src="/images/s1.png" class="md:col-start-8 md:col-span-5 max-h-[300px] md:max-h-[400px] min-h-[300px] min-w-[350px] justify-self-end rounded-md"/>
+       </section>
     </main>
   </body>
+  <footer class="w-full bg-pink-950 h-36 mt-6">Footer</footer>
 </html>
